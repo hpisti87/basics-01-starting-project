@@ -8,6 +8,6 @@ function add(num1, num2) {
 
 currentResult = add(1, 2);
 
-let calculationDescription = '(0 + 10)';
+let calculationDescription = `(${defaultResult} + 10)`;
 
 outputResult(currentResult, calculationDescription);
